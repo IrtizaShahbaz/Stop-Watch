@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #c147e9bf;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.watch-con {
+  width: 700px;
+  background-color: #e5b8f4;
+  padding: 40px 100px;
+  padding-left: 130px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.watch-con h1{
+    color: #61436bbf;
+    text-decoration: double underline;
+}
+.stopwatch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 20px;
+  color: #61436bbf;
+}
+.hours-box,
+.min-box,
+.sec-box,
+.miliSec-box {
+  display: flex;
+  align-items: end;
+  margin: auto 20px;
+  position: relative;
+}
+.miliSec-box {
+  min-width: 180px;
+  overflow: hidden;
+  text-align: center;
+}
+.hour,
+.min,
+.sec,
+.miliSec {
+  font-size: 3.5rem;
+  font-weight: 600;
+  display: inline-block;
+}
+.hours-box span,
+.min-box span,
+.sec-box span,
+.miliSec-box span {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.btn-con {
+  margin: 20px 0;
+}
+button{
+    background: transparent;
+    border: 2px solid #c147e9bf;
+    color: #c147e9bf;
+    padding: 4px 16px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 14px;
+    transition: all ease 0.4s;
+}
+button:hover{
+    background-color: #c147e9bf;
+    color: #fff;
+}
